@@ -4,7 +4,6 @@
     "type": "think-extend",
     "homepage": "https://github.com/yifei8155/think-queue",
     "license": "Apache-2.0",
-    "minimum-stability": "dev",
     "version": "0.0.0",
     "authors": [
         {
