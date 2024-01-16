@@ -1,0 +1,35 @@
+{
+    "name": "yifei8155/think-queue",
+    "description": "The ThinkPHP 5.0.24 Queue v1.1.6 Package",
+    "type": "think-extend",
+    "homepage": "https://github.com/yifei8155/think-queue",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "version": "0.0.0",
+    "authors": [
+        {
+            "name": "yifei8155",
+            "email": "yifei_8155@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        },
+        "files": [
+            "src/common.php"
+        ]
+    },
+    "require": {
+        "topthink/think-helper": ">=1.0.4",
+        "topthink/think-installer": ">=1.0.10"
+    },
+    "require-dev": {
+        "topthink/framework": "~5.0.0"
+    },
+    "extra": {
+        "think-config": {
+            "queue": "src/config.php"
+        }
+    }
+}
